@@ -1,13 +1,8 @@
 
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif; /* Establece la fuente para todo el documento */
-  }
   
   .todo {
-    max-width: 600px; /* Ancho máximo del contenedor */
+    max-width: 560px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centra horizontalmente el contenedor */
-    text-align: center; /* Centra todo el texto dentro del contenedor */
   }
   
   .todo img {
@@ -25,9 +20,15 @@
   
   .texto-encima {
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    transform: translate(-50%, 0);
     color: white;
+  }
+
+  .texto-fondo {
+    background-color: black; /* Color del fondo */
+    color: white; /* Color del texto */
+    padding: 2px; /* Espaciado interno para el texto */
+    text-align: center; /* centrar texto */
   }

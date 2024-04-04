@@ -12,7 +12,10 @@
     height: auto; /* Mantiene la proporción de la imagen */
   }
 
-
+  .cabecera-imagen {
+    width: 100%;
+    height: auto; /* Esto mantendrá la proporción de la imagen */
+}
 
   .imgfondo {
     position: relative;
@@ -43,3 +46,5 @@
   .link {
     color: red;
   }
+
+

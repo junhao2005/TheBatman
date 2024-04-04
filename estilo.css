@@ -20,7 +20,7 @@
   
   .texto-encima {
     position: absolute;
-    top: 3%;   /* Distancia desde la parte superior del contenedor */
+    top: 2%;   /* Distancia desde la parte superior del contenedor */
     left: 50%;    /* Coloca el elemento en el centro  */
     transform: translate(-50%);
     color: white;  /* Para poner color  */        

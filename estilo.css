@@ -22,8 +22,8 @@
     position: absolute;
     top: 3%;   /* Distancia desde la parte superior del contenedor */
     left: 50%;    /* Coloca el elemento en el centro  */
-    transform: translate(-50%, 0);
-    color: white;  /* Para poner color  */
+    transform: translate(-50%);
+    color: white;  /* Para poner color  */        
   }
 
   .texto-fondo {

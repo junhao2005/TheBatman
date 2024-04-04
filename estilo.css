@@ -39,3 +39,7 @@
     font-weight: <weight>;
     font-style: normal;
   }
+
+  .link {
+    color: red;
+  }

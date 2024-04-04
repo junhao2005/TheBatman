@@ -6,6 +6,8 @@
   }
   
   .todo img {
+    max-width: 560px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
     display: block; /* Convierte la imagen en un bloque */
     margin: 0 auto; /* Centra horizontalmente la imagen */
     max-width: 100%; /* La imagen se ajusta al ancho del contenedor */
@@ -14,11 +16,12 @@
 
   .cabecera-imagen {
     width: 100%;
-    height: auto; /* Esto mantendrá la proporción de la imagen */
+    height: 100%; /* Esto mantendrá la proporción de la imagen */
 }
 
   .imgfondo {
     position: relative;
+    width: 100%;
   }
   
   .texto-encima {
@@ -48,3 +51,4 @@
   }
 
 
+  

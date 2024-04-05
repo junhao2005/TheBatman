@@ -26,11 +26,11 @@
   }
   
   .texto-encima {
-    position: relative;
-    top: 50%;  
-    left: 50%;   
+    position: absolute;
+    top: 40%;   /* Distancia desde la parte superior del contenedor */
+    left: 50%;    /* Coloca el elemento en el centro  */
     transform: translate(-50%, -50%);
-    color: white;        
+    color: white;  /* Para poner color  */       
   }
 
   .texto-fondo {

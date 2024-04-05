@@ -20,16 +20,17 @@
 }
 
   .imgfondo {
-    position: relative;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   
   .texto-encima {
-    position: absolute;
-    top: 2%;   /* Distancia desde la parte superior del contenedor */
-    left: 50%;    /* Coloca el elemento en el centro  */
-    transform: translate(-50%);
-    color: white;  /* Para poner color  */        
+    position: relative;
+    top: 40%;  
+    left: 50%;   
+    transform: translate(-50%, -50%);
+    color: white;        
   }
 
   .texto-fondo {

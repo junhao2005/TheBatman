@@ -27,10 +27,10 @@
   
   .texto-encima {
     position: absolute;
-    top: 41%;   /* Distancia desde la parte superior del contenedor */
+    top: 50%;   /* Distancia desde la parte superior del contenedor */
     left: 50%;    /* Coloca el elemento en el centro  */
     transform: translate(-50%, -50%);
-    color: white;  /* Para poner color  */       
+    color: white;  /* Para poner color  */     
   }
 
   .texto-fondo {
